@@ -1,0 +1,16 @@
+PODS:
+  - CCCategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - CCCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  CCCategoryKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CCCategoryKit: 91ef774aeda566d7920e25570ef858d2b649fcbe
+
+PODFILE CHECKSUM: a9d1aff5ffa7412c3ae3b1d0776a86e3acdb6335
+
+COCOAPODS: 1.4.0
