@@ -1,9 +1,9 @@
 {
   "name": "CCCategoryKit",
-  "version": "0.1.0",
+  "version": "1.0",
   "summary": "A short description of CCCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/cc/CCCategoryKit",
+  "homepage": "https://github.com/GoldenChanChan/CCCategoryKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "cc": "chencheng2046@126.com"
   },
   "source": {
-    "git": "https://github.com/cc/CCCategoryKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/GoldenChanChan/CCCategoryKit.git",
+    "tag": "1.0"
   },
   "platforms": {
     "ios": "8.0"
