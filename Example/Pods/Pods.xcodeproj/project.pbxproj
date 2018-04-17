@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		06927A4D984C041EB2C796C9D7AD42E1 /* UIButton+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AFB077928D5BAF7B11D58AC44E219B5 /* UIButton+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		069E5AAFA07E957CCB569AFEBC3830DB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF41104B40BD75D4CCBF9E7F2E7FD1E /* ReplaceMe.m */; };
 		1D7EBF0C65D629A76058654E2295C72B /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FCB0C0A0F893A47E640A13F3934AC9 /* NSArray+Log.m */; };
 		21169C6BD846604D174D4140922B5BC4 /* Pods-CCCategoryKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1730DBAB087A664185EE341ACBECC /* Pods-CCCategoryKit_Tests-dummy.m */; };
 		2CA6729E38EEE9FC29B75BDF8D22E80E /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8D67AE72469D49DB21D323FE8F5F4C /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,32 +43,31 @@
 		04FDA1D22F678AA441C5BB1AA5C5B7F3 /* Pods-CCCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		228D6DDF2D0E4F20B4F01E6C3B63AA33 /* Pods-CCCategoryKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCCategoryKit_Example-dummy.m"; sourceTree = "<group>"; };
 		2501502CC65B4138DA31DFC8575C096A /* Pods-CCCategoryKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCCategoryKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		26B6BD82C401575F742F6EF963EE867F /* CCCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCCategoryKit.framework; path = CCCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B6BD82C401575F742F6EF963EE867F /* CCCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38CE20D6EE2841A323607CCADF0AA09B /* CCCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCCategoryKit-dummy.m"; sourceTree = "<group>"; };
 		3941C8627002E08B844B881EB020DC83 /* Pods-CCCategoryKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCCategoryKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		3DF41104B40BD75D4CCBF9E7F2E7FD1E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CCCategoryKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		4A4D37759BC9ADE63D1A59C919EEB63F /* UILabel+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
-		4DD2E5165AA5588E42F1789010FFAC42 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		503E6F0382ADAAD1F2B0764BC82C53F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4DD2E5165AA5588E42F1789010FFAC42 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		503E6F0382ADAAD1F2B0764BC82C53F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		50A724B3BB6F43EFC5D587F7BDB4F51E /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		5AFB077928D5BAF7B11D58AC44E219B5 /* UIButton+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
 		6158D32A20436122EDF13F8B7B3F46CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6248E19A99B85540415F378E31FC68B1 /* Pods-CCCategoryKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCCategoryKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		65C2CDA45217FBAB794FC340C6BB4D1F /* CCCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CCCategoryKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		65C2CDA45217FBAB794FC340C6BB4D1F /* CCCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CCCategoryKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		72215FE7EF754C79AD9E5985655A7FF7 /* Pods-CCCategoryKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCCategoryKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		78004C3243287363592D1B53B40DF67A /* UIView+FFFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+FFFrame.m"; sourceTree = "<group>"; };
 		7F056CE57AB9033D00608EAAEFFF1C70 /* Pods-CCCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		83859277262AD3A4767DEADAEF64BEC4 /* Pods-CCCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		86B118EFE99FF16733A8C0C882B84E6E /* Pods-CCCategoryKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCCategoryKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		916F6F7C7A20EEC206AC1F4EA1604C82 /* Pods_CCCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CCCategoryKit_Example.framework; path = "Pods-CCCategoryKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		916F6F7C7A20EEC206AC1F4EA1604C82 /* Pods_CCCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FA811F4C508ECEB2B8425A923F12F7D /* Pods-CCCategoryKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCCategoryKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ABCD95B9D19E957B4B922047452E78DB /* CCCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCCategoryKit-prefix.pch"; sourceTree = "<group>"; };
 		AE83C3BE20477DE8E536DE507DB1A3CA /* Pods-CCCategoryKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCCategoryKit_Example-resources.sh"; sourceTree = "<group>"; };
 		AE8D67AE72469D49DB21D323FE8F5F4C /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		B107EA4CA4EF5777D0D3C9CD8500FAC7 /* Pods-CCCategoryKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCCategoryKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B19A2C5EE8DB9E5B4DDA538E620EDCB3 /* Pods_CCCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CCCategoryKit_Tests.framework; path = "Pods-CCCategoryKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19A2C5EE8DB9E5B4DDA538E620EDCB3 /* Pods_CCCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7606195D5BD322BDB1C491049EB2CDE /* NSArray+Log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
 		B9CB20A31BBB5C16FB7832484229B108 /* UIButton+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
 		C26AE82E4642DA655E522CC61A00B5F9 /* CCCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCCategoryKit.modulemap; sourceTree = "<group>"; };
@@ -173,7 +171,6 @@
 		6154A424B35AD3E8B7AE0CE664700926 /* CCCategoryKit */ = {
 			isa = PBXGroup;
 			children = (
-				3DF41104B40BD75D4CCBF9E7F2E7FD1E /* ReplaceMe.m */,
 				FCD520B2FC7DD49F210D1A0171372EA5 /* category */,
 				B695B7F5C1AFAA5B843B1D4004364746 /* Pod */,
 				B4B7B39C2ED6AC597019ACCF7464E723 /* Support Files */,
@@ -389,7 +386,6 @@
 			files = (
 				9A9EF1ED2BE397BB5DF35249AC1FD9E3 /* CCCategoryKit-dummy.m in Sources */,
 				1D7EBF0C65D629A76058654E2295C72B /* NSArray+Log.m in Sources */,
-				069E5AAFA07E957CCB569AFEBC3830DB /* ReplaceMe.m in Sources */,
 				2F42A1BFCEA91B3EF08135A5CEA7FFAA /* UIButton+Extension.m in Sources */,
 				6205B82B26BA656162105030DD0CD9D3 /* UIColor+Hex.m in Sources */,
 				A78E938CB357C43812ACC01E4F5F41A6 /* UILabel+Extension.m in Sources */,
